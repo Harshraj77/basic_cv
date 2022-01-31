@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contacts</title>
+  </head>
+  <body>
+    <p>
+      Connect with me via-- <br />
+      fb- harsh raj gupta<br />
+      insta- harsh_raj_gupta_07<br />
+      phone number- +91 7761910688
+    </p>
+    <hr noshade>
+    <!--form tag is used to take inputs from the user with help of various other tags like input and field-->
+    <form action="mailto:harshraja311@gmail.com" method="post" enctype="text/plain">
+        <!--the entype defines the type of data we are sending so that the program can be sure-->
+        <!--in form the action tag makes it do what's written in the attribute ... here it opens default mail to mail to the adress given-->
+        <label>Your Name:</label>
+        <input type="text" name="yourName"><!--inputs can be of different types like checkbox,radio,text,email,etc.-->
+        <br>
+        <label>Your email:</label><!--provides label into form-->
+        <input type="email" name="yourEmail"><br>
+        <label>Messege u want to send</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>  
+        <input type="submit">
+    </form>
+  </body>
+</html>
